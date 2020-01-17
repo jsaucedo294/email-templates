@@ -14,7 +14,7 @@
   /****** FOOTER ******/
   .footer {
       background-color: $secondary-color;
-      height: 170px;
+      height: 150px;
   }
   .social-media {
     height: 100%;
@@ -38,5 +38,8 @@
       width: 580px;
       color: #f8f8f8;
       font-size: 14px;
+      a {
+          color: #00a0d1;
+      }
     }
   }
