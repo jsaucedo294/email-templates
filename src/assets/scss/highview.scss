@@ -1,0 +1,37 @@
+  /******** Highview Template *********/
+  @import '../../../node_modules/font-awesome/scss/font-awesome.scss';
+  
+  .header-highview {
+    height: 115px;
+    width: 100%;
+    background-color: #333;
+  }
+  .social-media-icon {
+    box-sizing: border-box;
+    width: 20px;
+  }
+
+  /****** FOOTER ******/
+  ul.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      width: 30px;
+      margin-right: 40px;
+      &:nth-child(5) {
+        margin-right: 0px;
+      }
+    }
+  }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    p {
+      width: 580px;
+      color: #333;
+      font-size: 14px;
+    }
+  }
