@@ -1,0 +1,29 @@
+/******** Student Email Template *********/
+  .bg-primary-color {
+      width: 100%;
+      background-color: $primary-color;
+      .header-image {
+        margin-top: 15px;
+      }
+  }
+
+  .bg-secondary-color {
+    width: 100%;
+    background-color: $secondary-color;
+  }
+  
+  .vision-title {
+      color: $white;
+      text-align: center;
+      padding: 0;
+      margin: 20px;
+  }
+
+  .student-section-header {
+      margin: 0;
+      width: 100%;
+      padding:0 !important;
+      .header-image {
+          width: 100%;
+      } 
+  }
