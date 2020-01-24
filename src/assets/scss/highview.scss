@@ -1,8 +1,12 @@
-  /******** Highview Template *********/
-  @import '../../../node_modules/font-awesome/scss/font-awesome.scss';
+/******** Highview Template *********/
+/****** HEADER ******/
+.blue-header {
+  background-color: $primary-color;
+  padding: 0 !important;
+}
   
   /****** BODY ******/
-  .header-line {
+.header-line {
       height: 10px;
       background-color: $secondary-color;
   }
@@ -27,8 +31,9 @@
     a {
         margin: 0px 8px;
         Margin: 0px 8px;
-        font-size: 35px;
-        color: #fff;
+        img {
+          display: inline-block;
+        }
     }
   }
   .footer-text {
