@@ -1,0 +1,60 @@
+// HEADER
+.blue-section {
+    background-color: $primary-color;
+    padding: 0 !important;
+    height: 120px;
+    h5 {
+        color: #fff;
+        padding: 0 !important;
+        margin: 0;
+        Margin: 0;
+    }
+}
+.white-section {
+    background-color: #f8f8f8;
+    padding: 0 !important;
+    height: 120px;
+}
+
+.image-block-container {
+    padding: 0 !important;
+    margin: 0;
+    Margin: 0;
+}
+
+// FOOTER
+.white-section-footer {
+    background-color: #f8f8f8;
+    height: 165px;
+}
+.author-container {
+    padding: 0!important;
+    img {
+        border-radius: 100%;
+        margin: 0 0 0 20px;
+        Margin: 0 0 0 20px;
+    }
+}
+.author-info {
+    padding: 0!important;
+    h4, p {
+        padding: 0 !important;
+        margin: 0;
+        Margin: 0;
+        color: $primary-color;
+    }
+    .social-media-discipleship {
+        display: flex;
+        padding: 0 !important;
+        a {
+            img {
+                display: inline-block;
+                padding: 10px 10px 0 0;
+            }
+        }
+    }
+}
+.blue-section-footer {
+    background-color: $primary-color;
+    padding: 0 20px !important;
+}
