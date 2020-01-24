@@ -4,12 +4,17 @@
   background-color: $primary-color;
   padding: 0 !important;
 }
-  
-  /****** BODY ******/
-.header-line {
-      height: 10px;
-      background-color: $secondary-color;
+.gray-header {
+  background-color: $secondary-color;
+  padding: 0 !important;
+  h5 {
+    color: #fff;
+    padding: 10px 0px;
+    margin: 0;
+    Margin: 0;
   }
+}  
+  /****** BODY ******/
 .body-content {
     background-color: #fff;
     padding: 20px 30px !important;
