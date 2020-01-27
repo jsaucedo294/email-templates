@@ -27,18 +27,18 @@
   }
   .social-media {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     Margin: 0;
     padding: 0;
-    a {
-        margin: 0px 8px;
-        Margin: 0px 8px;
-        img {
-          display: inline-block;
-        }
+    .social-media__icon {
+      padding: 0 !important;
+      a {
+          margin: 0;
+          Margin: 0;
+          img {
+            display: inline-block;
+          }
+      }
     }
   }
   .footer-text {
