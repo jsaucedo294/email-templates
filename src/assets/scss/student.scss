@@ -27,34 +27,3 @@
           width: 100%;
       } 
   }
-
-
-  /****** FOOTER ******/
-  .footer {
-      background-color: $secondary-color;
-      height: 170px;
-  }
-  .social-media {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    Margin: 0;
-    padding: 0;
-    a {
-        margin: 0px 8px;
-        Margin: 0px 8px;
-        font-size: 35px;
-        color: #fff;
-    }
-  }
-  .footer-text {
-    display: flex;
-    justify-content: center;
-    p {
-      width: 580px;
-      color: #f8f8f8;
-      font-size: 14px;
-    }
-  }

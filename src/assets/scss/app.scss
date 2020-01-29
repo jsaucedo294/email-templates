@@ -1,5 +1,25 @@
 @import 'settings';
 @import 'foundation-emails';
 @import 'template/template';
-@import 'highview';
-@import 'discipleship';
+@import 'ministry';
+
+
+/****** BODY ******/
+.body-content {
+    background-color: #fff;
+    padding: 20px 30px !important;
+}
+
+/****** FOOTER ******/
+.footer-text {
+    display: flex;
+    justify-content: center;
+    p {
+      width: 580px;
+      color: #f8f8f8;
+      font-size: 14px;
+      a {
+          color: #00a0d1;
+      }
+    }
+  }

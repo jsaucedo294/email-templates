@@ -14,13 +14,8 @@
     Margin: 0;
   }
 }  
-  /****** BODY ******/
-.body-content {
-    background-color: #fff;
-    padding: 20px 30px !important;
-}
-
-  /****** FOOTER ******/
+  
+/****** FOOTER ******/
   .footer {
       background-color: $secondary-color;
       height: 150px;
@@ -38,18 +33,6 @@
           img {
             display: inline-block;
           }
-      }
-    }
-  }
-  .footer-text {
-    display: flex;
-    justify-content: center;
-    p {
-      width: 580px;
-      color: #f8f8f8;
-      font-size: 14px;
-      a {
-          color: #00a0d1;
       }
     }
   }
